@@ -156,19 +156,19 @@ function App() {
           <TransactionList />
 
           <footer className="mt-10 w-full border-t border-slate-200 dark:border-slate-800">
-            <div className="mx-auto max-w-7xl px-4 py-5 text-center">
-              <p className="flex items-center justify-center text-sm text-slate-500 dark:text-slate-400">
-                <span className="mr-1">Built by</span>
-                <span className="bg-gradient-to-r from-blue-500 to-cyan-500 bg-clip-text font-semibold text-transparent">
+            <div class="text-center mt-3 px-3">
+              <p class="text-sm flex flex-wrap justify-center items-center gap-x-1 gap-y-1">
+                <span class="text-gray-400">Built by</span>
+
+                <span class="font-semibold bg-gradient-to-r from-indigo-400 via-blue-500 to-cyan-400 bg-clip-text text-transparent">
                   Saurabh Hande
                 </span>
-                <span className="ml-1 text-slate-400 dark:text-slate-500">
-                  • Full Stack Developer
-                </span>
+
+                <span class="text-gray-500">• Full Stack Developer</span>
               </p>
-              <p className="mt-1 bg-gradient-to-r from-indigo-400 via-blue-500 to-cyan-400 bg-clip-text text-sm tracking-wide text-transparent">
-                Empowering smarter financial decisions through intuitive
-                analytics
+
+              <p class="text-sm mt-1 leading-snug bg-gradient-to-r from-indigo-400 via-blue-500 to-cyan-400 bg-clip-text text-transparent">
+                Empowering smarter financial decisions through intuitive analytics
               </p>
             </div>
           </footer>
