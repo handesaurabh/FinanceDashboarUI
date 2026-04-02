@@ -42,7 +42,7 @@ function App() {
 
   return (
     <div className="dashboard-shell relative min-h-screen overflow-hidden text-slate-900 transition-colors duration-300 dark:text-slate-50">
-      <div className="relative mx-auto max-w-7xl px-4 py-6 pb-14 sm:px-6 sm:pb-18 lg:px-8">
+      <div className="relative mx-auto max-w-7xl px-4 py-6 pb-15 sm:px-6 sm:pb-19 lg:px-8">
         <header className="mb-6 flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
           <div className="space-y-3">
             <span className="chip">Finance Dashboard</span>
