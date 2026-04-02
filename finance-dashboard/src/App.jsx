@@ -42,7 +42,7 @@ function App() {
 
   return (
     <div className="dashboard-shell relative min-h-screen overflow-hidden text-slate-900 transition-colors duration-300 dark:text-slate-50">
-      <div className="relative mx-auto max-w-7xl px-4 py-6 pb-20 sm:px-6 sm:pb-20 lg:px-8">
+      <div className="relative mx-auto max-w-7xl px-4 py-6 pb-8 sm:px-6 sm:pb-10 lg:px-8">
         <header className="mb-6 flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
           <div className="space-y-3">
             <span className="chip">Finance Dashboard</span>
@@ -156,19 +156,18 @@ function App() {
           <TransactionList />
 
           <footer className="mt-10 w-full border-t border-slate-200 dark:border-slate-800">
-            <div class="text-center mt-3 px-3">
-              <p class="text-sm flex flex-wrap justify-center items-center gap-x-1 gap-y-1">
-                <span class="text-gray-400">Built by</span>
-
-                <span class="font-semibold bg-gradient-to-r from-indigo-400 via-blue-500 to-cyan-400 bg-clip-text text-transparent">
+            <div className="mt-3 px-3 text-center">
+              <p className="flex flex-wrap items-center justify-center gap-x-1 gap-y-1 text-sm">
+                <span className="text-slate-400">Built by</span>
+                <span className="bg-gradient-to-r from-indigo-400 via-blue-500 to-cyan-400 bg-clip-text font-semibold text-transparent">
                   Saurabh Hande
                 </span>
-
-                <span class="text-gray-500">• Full Stack Developer</span>
+                <span className="text-slate-500">| Full Stack Developer</span>
               </p>
 
-              <p class="text-sm mt-1 leading-snug bg-gradient-to-r from-indigo-400 via-blue-500 to-cyan-400 bg-clip-text text-transparent">
-                Empowering smarter financial decisions through intuitive analytics
+              <p className="mt-1 bg-gradient-to-r from-indigo-400 via-blue-500 to-cyan-400 bg-clip-text text-sm leading-snug text-transparent">
+                Empowering smarter financial decisions through intuitive
+                analytics
               </p>
             </div>
           </footer>

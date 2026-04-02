@@ -11,8 +11,8 @@ const RoleSwitcher = () => {
   const currentRole = useSelector(selectCurrentRole);
 
   return (
-    <div className="panel flex items-center gap-3 px-4 py-3">
-      <div className="hidden min-w-[180px] sm:block">
+    <div className="panel flex w-full min-w-0 items-center justify-between gap-4 px-4 py-3 sm:w-[540px]">
+      <div className="hidden min-w-0 flex-1 sm:block">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400">
           Role
         </p>
@@ -24,7 +24,7 @@ const RoleSwitcher = () => {
       <select
         value={currentRole}
         onChange={(event) => dispatch(setRole(event.target.value))}
-        className="select min-w-[140px]"
+        className="select w-full sm:w-[290px]"
         aria-label="Switch role"
       >
         <option value="admin">Admin</option>
